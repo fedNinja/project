@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: LpbQi0svmQaU331lZU/gV0HBCjnOcKisb5ZleHK0Rb98nlLlWxxVzP1agSKG7CV8xEen7d5V1uhvMt4M1IQ5UnTnigRm5mC62WMCjYNGDe/wQ84OUyMnq/4Kq+wpc4O9rD8qGSJDO7TcJE5FUZPWU1wjlAaBfl58BZUsOEegw8ymKzW6n6LpZ79MQlqg4R5hyfeA/Wa72bO9Dm2f/bFgp3B9jTkKOQBgd/LmpnFBaoAGDsBEP3yLAb5b4QRqYsQ2aIKqZV3437MV9N91Oa2uZSwtTs/I6Gi6gU7G5XTZI+5LT4YD6t/ArR/lrEgNZrQWCeSxxEoNxtybd+hwxuDg4Sv0ve1Ue/bAr6IqIuQFyjgqfsp/60HDZ1SjKZzEmFY/zm/cvXr9gKWnjoZYCJUCYbigzjSGUiV0GyVH0QFUfM2xRMZeci8p7f7Pk0DSPSBs9P86Re6hDz0sLzre8ZojjDcze0KuAtGHcf5JXC32yOuyZDFp2BagvKKmv/ne/X9iJ01LBf7OPnww2JfQh9PBh0P8W/450E7MF3cBtGtwZNytM40bCOVYOJz5GugQMM3MOisSdF4NhBEF2L2OYuF/VEWocjDFDL9D2/TeWO3mylCYEczCGriwNy1P2QgIAxmzN8UIIgE8c7UT8VfIzw/FG3hwGGj3R6fwKfrbwvRw0MQ=
+  app: safe-scrubland-83953
+  on:
+    repo: fedNinja/project
