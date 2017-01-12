@@ -13,9 +13,28 @@
   <body>
    <div class="container">
       <header class="heading">
-        <h1>Hello World</h1>
+        <h1>Workable Spaces</h1>
       </header>
-      
+      <main id="js-main-wrapper" class="wrapper">
+      	  <img src="images/sf-goldengate.jpg" alt="bg-image" class="bg-img">
+      	  <div class="inner-container">
+          <h4>Discover your very own, beautiful on-demand workable space..</h4>
+          <form id="js-space-form">
+            <select id="js-location">
+			  <option value="loc">Location</option>
+			  <option value="SFO">San fransico</option>
+			  <option value="IND">Indiana</option>
+			  <option value="NYC">New york city</option>
+			</select>
+            <input type="date" name="date-entry" id="js-date-selected" type="date">
+            <input type="text" id="js-time" placeholder="HH:MM:SS">
+            <button type="submit">Find my space</button>
+          </form>
+          </div>
+      </main>
+      <footer>
+
+      </footer>
     </div>
   </body>
   <script src="js/app.js" type="javascript"></script>
